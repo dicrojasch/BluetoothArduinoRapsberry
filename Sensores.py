@@ -23,8 +23,7 @@ CANT_MENSAJES = 15				# Cantidad de mensaje que se guardaran en el historial de 
 RUTA = ""						# Carpeta donde se guardara el archivo, dejar "" para guardar en la misma carpeta del programa
 CARPETA_DATOS = "DatosArduino"	# Nombre de la carpeta que guardara los datos
 LIMPIAR = set(string.printable)	# Se usa para quitar los caracteres que llegan con error de la arduino
-BOTONES = {	"Bomba On": '5', 	# ["Nombre funcion"] : 'numero', el nombre de funcion puede ser cualquiera pero el numero debe coincidir con el numero del comando en arduino
-			"Bomba On": '5', 
+BOTONES = {	"Bomba On": '5', 	# ["Nombre funcion"] : 'numero', el nombre de funcion puede ser cualquiera pero el numero debe coincidir con el numero del comando en arduino 
 			"Bomba Off": '6', 
 			"Valvula1 On": '7', 
 			"Valvula1 Off": '8',			
