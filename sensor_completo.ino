@@ -96,19 +96,7 @@ void loop() {
 void recibirComandos(){
 	if (bluetooth.available()){
 		int comando = bluetooth.read();
-		switch(comando){			
-			case 1:
-				digitalWrite(trig, HIGH;());
-				break;
-			case 2:
-				digitalWrite(trig, LOW());
-				break;
-			case 3:
-				digitalWrite(eco, HIGH());
-				break;
-			case 4:
-				digitalWrite(eco, LOW());
-				break;
+		switch(comando){						
 			case 5:
 				digitalWrite(bomba, HIGH());
 				break;
